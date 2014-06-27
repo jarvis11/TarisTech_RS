@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+    <title>Taris Advertisers</title>
+    <meta name="description" content="">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+	
+	<!-- CSS
+	================================================== -->
+	<%=stylesheet_link_tag "bootstrap.min.css"%>
+	<%=stylesheet_link_tag "styletaris.css"%>
+	<%=stylesheet_link_tag "animate.css"%>
+	<%=stylesheet_link_tag "prettyPhoto.css"%>
+	<%=stylesheet_link_tag "owl.carousel.css"%>
+	<%=stylesheet_link_tag "jquery.bxslider.css"%>
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+	
+<body>
+	<div class="body-inner">
+	<!-- Header start -->
+	<header id="header" class="navbar-fixed-top main-nav" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!--/ Top info start -->
+					<div class="top-info">
+						<ul class="pull-right">
+							<li><i class="fa fa-envelope"></i> hello@taristech.com</li>
+							<!-- Social links -->
+							<li class="social-icon">
+								<a id="tooltip1" data-toggle="tooltip" data-placement="top" title="Twitter"  href="#">
+									<i class="fa fa-twitter"></i>
+								</a>
+								<a id="tooltip2" data-toggle="tooltip" data-placement="top" title="Facebook" href="#">
+									<i class="fa fa-facebook"></i>
+								</a>
+								<a id="tooltip3" href="#" data-toggle="tooltip" data-placement="top" title="Google+">
+									<i class="fa fa-google-plus"></i>
+								</a>
+								
+							</li><!-- Social links end-->
+						</ul>
+					</div><!--/ Top info end -->
+
+					<!-- Logo start -->
+					<div class="navbar-header">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					    </button>
+					    <a class="navbar-brand" href="/">
+					    	<%= image_tag("TarisLogo.png", alt: "Logo", class: "img-responsive")%>
+							
+					    </a>                    
+					</div><!--/ Logo end -->
+
+					<!--Navigation Start -->
+					<nav class="collapse navbar-collapse clearfix" role="navigation">
+						<ul class="nav navbar-nav navbar-right">
+	                       	<li class="active"><a href="advertiser.html">For Advertisers</a></li>
+	                        <li><a href="venue.html">For Venues</a></li>
+<!-- 	                       	<li><a href="developers.html">For Developers</a></li>	                       	
+ -->	                    </ul>
+					</nav><!--/ Navigation end -->
+					
+					
+				</div><!--/ Col end -->
+			</div><!--/ Row end -->
+		</div><!--/ Container end -->
+	</header><!--/ Header end -->
+
+	<div id="inner-header">
+		<%= image_tag("advertiserbanner.jpg", alt: "ADVERTISERS")%>
+							
+	</div>
+
+	<!-- Subpage title start -->
+	<!-- <section id="inner-title">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-md-12">
+	        	<div class="inner-title-content">
+		        	<h2>Services</h2>
+		        	<ul class="breadcrumb">
+			            <li> <a href="#">Home </a></li>
+			            <li><a href="#"> Services</a></li>
+		          	</ul>
+	          	</div>
+	        </div>
+	      </div>
+	    </div>
+	 </section> -->
+	<!-- Subpage title end -->
+
+	<div class="gap-40"></div>
+
+	<!-- Service page start -->
+	<section id="service-page">
+		<div class="container">
+
+			<!-- <div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h2 class="title"><span>Say Hello to <strong>Taris</strong></span></h2>
+					</div>
+				</div>
+				
+			
+			</div> -->
+			<div class="row">
+				<div class="col-md-6 wow slideInLeft">
+					<%= image_tag("whatwedo_advertiser.jpg", class: "img-responsive", alt: "WHAT WE DO")%>
+							
+				</div>
+
+				
+				<div class="col-md-6 wow slideInRight">
+					<h3 class="page-content-title">What We Do</h3>
+					<p>Taris is the first mobile content network between media buyers and physical venues, helping marketers connect with consumers through a venue's mobile app.</p>
+					<div class="gap-20"></div>
+					<h4>Platform Highlights:</h4>
+					<ul class="circle">
+						<li><strong>Disruptive targeting</strong> technology based on real time consumer actions, opposed to mobile profiling.
+						</li>
+						<li><strong>Actionable content</strong> including sponsored notifications and native banner ads on iOS and Android phones.
+						</li>
+						<li><strong>Integrated exchange</strong> with support for impression and performance based RTB.</li>
+						<li><strong>Simple integration</strong> with programmatic access to our Content API. A lite front end is also available for smaller media buyers.</li>
+					</ul>
+				</div>
+			</div><!--/ service intro row end -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h2 class="title"><span>Disruptive Targeting</span></h2>
+						<p>Taris brings a new level of contextual relevance to mobile advertising. Using a combination of hardware and software algorithms, <strong>Taris captures consumer action data within venues</strong> such as sports arenas, museums, hotels, airports, shopping complexes, and more. This data is then translated into a powerful targeting spec that lets <strong>marketers target their ads based on live, real-time consumer action</strong>, opposed to mobile profiling, increasing content interactivity and performance.</p>
+
+					</div>
+				</div>
+			</div>
+
+
+			<br><br>
+			<div class="row">
+    			<div class="col-sm-6 wow fadeInLeft">
+    				<div class="feature-image">    					
+    					<%= image_tag("disruptivetargeting.png", alt: "DISRUPTIVE TARGETING", class: "img-responsive")%>
+							
+    				</div>
+    			</div>
+
+    			<div class="col-sm-6 wow fadeInRight">
+    				<div class="feature-wrapper">
+	    				<div class="feature-content-wrapper">
+	    					<h3>Contextual Relevance = Happy Consumers</h3>
+	    					<p>This is the most powerful targeting technology in mobile.</p>
+
+							<div class="feature-box clearfix">
+				                <div class="feature-icon pull-left">
+				                    <i class="fa fa-group"></i>
+				                </div>
+				                <div class="feature-box-content">
+					                <h3>Live-Action Targeting</h3>
+					                <p>Target consumers based on the venue they are currently in and what they are doing in that venue, not mobile profiling.</p>
+					            </div>
+				            </div>
+				            <div class="feature-box clearfix">
+				                <div class="feature-icon pull-left">
+				                    <i class="fa fa-list-alt"></i>
+				                </div>
+				                <div class="feature-box-content">
+					                <h3>Endless Permutations</h3>
+					                <p>Target using broad categories, specific venue names, sub-locations within venues, or by specifying consumer action. The possibilities are endless.</p>
+				            	</div>
+				            </div>
+				            <div class="feature-box clearfix">
+				                <div class="feature-icon pull-left">
+				                    <i class="fa fa-heart"></i>
+				                </div>
+				                <div class="feature-box-content">
+					                <h3>Enhanced Experience</h3>
+					                <p>Timely, well targeted ads enhance consumer experience by complimenting current activities, boosting brand image.</p>
+				            	</div>
+				            </div>
+    					</div>
+    				</div>
+    			</div><!-- Features right side end -->
+    		</div><!-- Row end -->
+
+    		<br>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="text-center">
+    					<h2 class="title"><span>Actionable Content</span></h2>
+    					<p>Taris serves sponsored notifications and native banner ads on iOS and Android phones. <strong>Wearable ad types are coming soon!</strong> <!-- Our two primary ad types include an e-commerce ad type for brands marketing products to individuals, and a local ad type for local businesses attempting to attract consumers in their vicinity. --></p>
+    				</div>
+    			</div>
+    		</div>
+    		<br><br>
+	    
+	    <div class="row">
+		    <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
+		        <div class="item">
+		          <div class="testimonial-thumb">
+		            <%= image_tag("ECommerceExample.jpg", alt: "ECOMMERCE")%>
+							
+		          </div>
+		          <div class="testimonial-content">
+		            <h3 class="name">E-Commerce</h3>
+		            <p class="testimonial-text">
+		              "Add to cart" feature lets consumers enter email to save promotion and complete transaction at a later time. Clicking on ad takes consumers to a native page in the respective venue's application with further details on promotion. Ad type geared towards brands marketing tangible products to individuals. 
+		            </p>
+		          </div>
+		        </div>
+		        <div class="item">
+		          <div class="testimonial-thumb">
+		            <%= image_tag("localexample.jpg", alt: "LOCAL")%>
+							
+		          </div>
+		          <div class="testimonial-content">
+		          	<h3 class="name">Local</h3>
+		            <p class="testimonial-text">
+		              "Get directions" feature links with native mapping application to help consumers find local businesses in/around their area. Clicking on ad takes consumers to a native page in the respective venue's application with further details on the local business, along with pictures and Yelp/Google+ reviews. Ad type geared towards small or medium sized local businesses looking to attract consumers currently within their vicinity.
+		            </p>
+		          </div>
+		        </div>		        
+		    </div>
+	      	<!-- Navigation start -->
+	      	<div class="customNavigation dart-carousel-controller">
+		        <a class="prev left">
+		        	<i class="fa fa-chevron-left"></i>
+		       	</a>
+		        <a class="next right">
+		          <i class="fa fa-chevron-right"></i>
+		        </a>
+	    	</div><!--/ Navigation end -->
+	    </div><!--/ Main row end-->
+
+	    <br>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="text-center">
+    					<h2 class="title"><span>Integrated Exchange</span></h2>
+    					<p>All content on the Taris platform is purchased through our own integrated exchange. Purchase impressions, or place performance based bids. Taris automatically optimizes to maximize results. </p>
+    				</div>
+    			</div>
+    		</div>
+    		<br><br>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-3">
+					<div class="service-content">
+					    <a href="#."><span class="service-icon"><i class="fa fa-bullhorn img-circle wow flipInX"></i></span></a>
+					    <h3>Create</h3>
+					    <p>Upload creatives to the Taris servers using Content API.</p>
+					</div>
+				</div><!--/ End first service -->
+				<div class="col-md-3 col-sm-3">
+					<div class="service-content">
+					    <a href="#."><span class="service-icon"><i class="fa fa-group img-circle wow flipInX"></i></span></a>
+					    <h3>Target</h3>
+					    <p>Select target consumers with our live-action targeting spec.</p>
+					</div>
+				</div><!--/ End 2nd service -->
+				<div class="col-md-3 col-sm-3">
+					<div class="service-content">
+					    <a href="#."><span class="service-icon"><i class="fa fa-dollar img-circle wow flipInX"></i></span></a>
+					    <h3>RTB</h3>
+					    <p>Optimize ads towards impressions, clicks, or actions using CPM, CPC, and CPA based bids.</p>
+					</div>
+				</div><!--/ End 3rd service -->
+				<div class="col-md-3 col-sm-3">
+					<div class="service-content last">
+					    <a href="#."><span class="service-icon"><i class="fa fa-desktop img-circle wow flipInX"></i></span></a>
+					    <h3>Monitor</h3>
+					    <p>Performance statistics are updated in real time at both the advertisement and campaign levels.</p>
+					</div>
+				</div><!--/ End 4th service -->
+    		</div>
+
+    		
+
+			<div class="row">
+				<div class="col-md-12">
+		  			<div class="text-center">
+			    		<h2 class="title"><span>Content API</span></h2>
+			    		<p>With access to our RESTful Content API, media buyers have the power to access the entire Taris platform through a set of simple queries. Upload creatives, set targets, place bids, and measure performance in the comfort of your own environment. For media buyers looking to leverage Taris through more user-friendly methods, we provide a lite, web based front end that lets you construct maller campaigns directly within your browser. </p>
+			    	</div>
+	  			</div>
+    		</div><!--/ service box row end -->
+
+    		
+		</div><!--/ container end -->
+	</section><!-- Service page end -->
+	
+
+	<!-- Main Footer start -->
+	<section id="footer-wrapper">
+		<!-- Footer top start -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" align="middle">
+						<h4>For more information, please contact us at: <strong>hello@taristech.com</strong></h4>
+					
+					</div>
+					
+				</div><!-- Row end -->
+			</div><!-- Container end -->
+		</footer><!-- Footer top end -->
+
+		<!-- Footer bottom start -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 wow fadeInLeft animated">
+						<ul class="footer-bottom-menu">
+							<li><a href="advertisers.html">For Advertisers</a></li>
+	                       	<li><a> | </a></li>
+	                        <li><a href="venues.html">For Venues</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<a id="back-to-top" href="#" class="scroll-up back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+							<%= image_tag("TarisFooterLogo.png", alt: "TARISFOOTER", class: "wow flipInY animated")%>
+							
+						</a>
+					</div>
+					<div class="col-md-5 wow fadeInRight animated">
+						<div class="copyright-info" align="right">
+	         			 Taris Technologies - Made in Chicago</span>
+	        			</div>
+					</div>
+				</div><!-- Row end -->
+			</div><!-- Container end -->
+		</div><!-- Footer bottom end -->
+	</section>
+	<!-- Footer section end -->
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Owl Carousel -->
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<!-- PrettyPhoto -->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<!-- Bxslider -->
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<!-- Isotope -->
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<!-- Wow Animation -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!-- SmoothScroll -->
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<!-- Animated Pie -->
+	<script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script>
+
+
+	<!-- Template custom -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<%=javascript_include_tag "jquery.js"%>
+	<%=javascript_include_tag "bootstrap.min.js"%>
+	<%=javascript_include_tag "owl.carousel.js"%>
+	<%=javascript_include_tag "jquery.prettyPhoto.js"%>
+	<%=javascript_include_tag "bxslider.min.js"%>
+	<%=javascript_include_tag "jquery.isotope.min.js"%>
+	<%=javascript_include_tag "wow.min.js"%>
+	<%=javascript_include_tag "smoothscroll.js"%>						
+	<%=javascript_include_tag "jquery.easy-pie-chart.js"%>
+	<%=javascript_include_tag "custom.js"%>		
+	
+	</div>
+</body>
+</html>

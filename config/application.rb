@@ -24,5 +24,21 @@ module TaristechRs
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'banner')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'slider')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'tab')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'dark_rounded')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'dark_square')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'light_rounded')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'light_square')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'default')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images', 'prettyPhoto', 'facebook')
+
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+
+
+
   end
 end

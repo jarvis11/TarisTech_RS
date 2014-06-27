@@ -1,4 +1,11 @@
 TaristechRs::Application.routes.draw do
+  # get "general_frontend/home"
+  # get "general_frontend/advertiser"
+  # get "general_frontend/venue"
+
+  root 'general_frontend#home'
+  match '/advertiser', to: 'general_frontend#advertiser', via: 'get'
+  match '/venue', to: 'general_frontend#venue', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
