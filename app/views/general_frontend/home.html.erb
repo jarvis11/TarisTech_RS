@@ -1,182 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-    <title>Taris Technologies</title>
-    <meta name="description" content="">	
-	<meta name="author" content="">
-
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
-	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
-	
-	<!-- CSS
-	================================================== -->
-	<%=stylesheet_link_tag "bootstrap.min.css"%>
-	<%=stylesheet_link_tag "styletaris.css"%>
-	<%=stylesheet_link_tag "animate.css"%>
-	<%=stylesheet_link_tag "prettyPhoto.css"%>
-	<%=stylesheet_link_tag "owl.carousel.css"%>
-	<%=stylesheet_link_tag "jquery.bxslider.css"%>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8"> 
+	<title>Top Level - Responsive Web Template</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link href='icons/css/fontello.css' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="css/preloader.css"> -->
+	<!-- <link rel="stylesheet" href="css/style.css">
 
 
+	<link rel="stylesheet" href="css/responsive.css"> -->
 
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+	<%=stylesheet_link_tag "style.css"%>
+	<%=stylesheet_link_tag "responsive.css"%>
 
+	<!-- <link rel="stylesheet" href="galaxy/css/galaxy.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"> -->
 </head>
-	
-<body style = "background-color:rgba(28,28,28,1)">
-	<div class="body-inner">
-	<!-- Header start -->
-	<header id="header" class="navbar-fixed-top main-nav" role="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<!--/ Top info start -->
-					<div class="top-info">
-						<ul class="pull-right">
-							<li><i class="fa fa-envelope"></i> hello@taristech.com</li>
-							<!-- Social links -->
-							<li class="social-icon">
-								<a id="tooltip1" data-toggle="tooltip" data-placement="top" title="Twitter"  href="#">
-									<i class="fa fa-twitter"></i>
-								</a>
-								<a id="tooltip2" data-toggle="tooltip" data-placement="top" title="Facebook" href="#">
-									<i class="fa fa-facebook"></i>
-								</a>
-								<a id="tooltip3" href="#" data-toggle="tooltip" data-placement="top" title="Google+">
-									<i class="fa fa-google-plus"></i>
-								</a>
-								
-							</li><!-- Social links end-->
-						</ul>
-					</div><!--/ Top info end -->
-
-					<!-- Logo start -->
-					<div class="navbar-header">
-					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					    </button>
-					    <!-- <a class="navbar-brand" href="/">
-					    	<%= image_tag("TarisLogo.png", alt: "Woops! Image didn't load", class:"img-responsive")%>
-					    </a>         -->            
-					</div><!--/ Logo end -->
-
-			
-					
-					
-				</div><!--/ Col end -->
-			</div><!--/ Row end -->
-		</div><!--/ Container end -->
-	</header><!--/ Header end -->
-	
-	<div class="gap-200"></div>
-
-	<!-- Slider start -->
-	
-		<!-- Carousel -->
-    	<div id="main-slide" class="carousel slide" data-ride="carousel">
-
-
-			<!-- Carousel inner -->
-			<div class="carousel-inner">
-			    <div class="item active">
-
- 						<%= image_tag("tarisbg.jpg", alt: "Woops! Image didn't load", class:"img-responsive")%>
- 						<div class="slider-content">
-                        <div class="col-md-12 text-center">
-                    		<h2 class="animated2">
-                    			<span><strong>Taris</strong> Technologies</span>
-                        	</h2>
-                            <h3 class="animated3">
-                            	<span>Open Source Ad Tech</span>
-                            </h3>
-                            <br>
-
-                            <h4 >
-                            	<span>Taris is an open source project aimed at helping ad tech developers create simple, efficient, and effective BLE marketing solutions. We work to provide the groundwork for such solutions, enabling firms to focus on
-innovation and personalization, opposed to underyling communications. Taris' platform contains a unique method to register BLE devices, allowing developers to leverage tags to target large groups of BLE devices at once.
-Target consumers based on their microlocation, their real-time actions, or their demographics. Taris is released under the MIT license, giving developers free reign to not only innovate, but monetize.</span>
-                            </h4>
-
-                            <a href="http://docs.tarisadsapi.apiary.io"><button type="submit" class="btn btn-primary btn-lg">Documentation</button></a>
-                            <a href="http://www.github.com/jarvis11/taris_source"><button type="submit" class="btn btn-primary btn-lg">Source</button></a>
-<!--                             <p class="animated4"><a href="#" class="slider btn btn-primary">Check Now</a></p>
- -->                        </div>
-                    </div>
-			    </div><!--/ Carousel item end -->
-			    
-			</div><!-- Carousel inner end-->
-
-			
-		</div><!-- /carousel -->    	
-   
-    <!--/ Slider end -->
-
-
-   <!--  -->
-
-
-	</section>
-
+<body>
+	<!-- Site Header -->
+	<header id="header">
+		<h1 id="sitename">
+<!-- 			<img src="images/logo.png" alt="">
+ -->			<%= image_tag("logo.png", alt: "Logo", class: "img-responsive")%>
+		</h1>
+		<h4 id="tagline">Open Source Ad Tech</h4>
+	</header>
+	<div id="main">
+		<div id="countdown_block">
+			<!-- <h3>Discover Taris</h3> -->
+			<a href="http://docs.tarisadsapi.apiary.io"> <h3>Documentation</h3> </a>
+			<a href="http://www.github.com/jarvis11/taris_source"> <h3>Source</h3> </a>
+			<!-- <div id="countdown"></div> -->
 		</div>
+		
+		<a href="#" id="show_content"><span class="stripe"></span></a>	
+		
+		<section id="content">
+			<span class="close_content"></span>
+			<div id="content_inner">
+				<ul id="mainmenu">
+					<li><a href="#">About</a></li>
+					<li><a href="#">README</a></li>
+					<li><a href="#">License</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<div id="tab_contents">				
+					<ul class='slides'>
+						
+						<!-- About Tab -->
+						
+						<li class="content_tab_item" id="about">
+							<div class="content_tab_inner">
+								<h2>About</h2>
+								<p>Taris is an open source project aimed at helping ad tech developers create simple, efficient, and effective BLE (Bluetooth Low Energy / Beacon) marketing solutions. We work to prvide the groundwork for such solutions, enabling firms to focus on innovation and personalization, opposed to underlying communications.</p>
+								<p>Our platform contains a unique method to register BLE devices, allowing developers to leverage tags to target large groups of BLE devices at once. With Taris, one can target consumers based on their microlocation, their real time actions, or their demographics.</p>
+								<p>Taris is released under the MIT license, giving developers free reign to not only innovate, but monetize. Use Taris to create innovative mediabuying solutions for advertisers and their brand partners, from self-serve platforms to fully functional RTB exchanges.</p>
+							</div>
+						</li>
+						
+						<!-- /About Tab -->	
+						
+						<!-- Services Tab -->
+						
+						<li class="content_tab_item" id="services">
+							<div class="content_tab_inner">
+								<h2>README</h2>
+								
+								<p>Taris is built on the Node.js platform, and is optimized to work directly with MongoDB. It is important that you have fundamental knowledge of both these platforms before diving in to Taris.</p>
+							
+								<p>All documentation is found within our API, powered by Apiary. Updates will routinely be posted within the API, not on this site. With popular demand, we may start pushing notifications through Twitter for ease of access. If this is a service you request, please let us know.</p>
+							
+								<p>Source code is hosted on Github. Code submits can either be made through email, or by contacting us directly on Github. All submits become property of Taris once approved, but you may modify the platform and use it in a commercial environment as long as it follows the terms found in our license.</p>
+							</div>													
+						</li>													
+																											
+						<!-- /Services Tab -->							
+						
+						<!-- Subscribe Tab -->	
+						
+						<li class="content_tab_item" id="subscribe">
+							<div class="content_tab_inner">
+								<h2>License</h2>
+								<p>Copyright (c) <2014></p>
+								<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+								<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+								<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+								<p>Any code submits accepted by Taris belong to Taris, and Taris only. Developers relinquish their rights to their code once submitted.</p>
+							
+								
+							</div>
+						</li>
+						
+						<!-- /Subscribe Tab -->
+						
+						<!-- Contacts Tab -->	
+						
+						<li class="content_tab_item" id="contacts">
+						
+							<div class="content_tab_inner">
+								<h2>Contact</h2>
+								
+								<ul id="contacts_list">
+									<li><i class="fa fa-envelope"></i>hello@taristech.com</li>
+								</ul>
+								<h3>Get In Touch</h3>
+								<p> Please submit code through email or ping us on Github. We will do our best to push submits through quickly. </p>
+								<p> At this moment Taris does not offer any support, but if you do have any questions feel free to drop us a note and we will do our best to help. </p>
+							</div>
+						</li>
+						
+						<!-- /Contacts Tab -->
+						
+					</ul>
+				</div>			
+			</div>
+		</section>
+		
+		<!-- Site Footer -->
+		<footer id="footer">
+			
+		</footer>	
+	</div>
+	<div id="singlecolor_bg" style=" background: #221f21; "><!-- Set Here Any Background Color --></div>
+	<!--<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.plugin.min.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/_front.js"></script>-->
 </body>
-	<!-- Footer section end -->
-
-	<!-- Javascript Files
-	================================================== -->
-	<!-- initialize jQuery Library -->
-	<!--<script type="text/javascript" src="js/jquery.js"></script>-->
-	<!-- Bootstrap jQuery -->
-	<!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
-	<!-- Owl Carousel -->
-	<!--<script type="text/javascript" src="js/owl.carousel.js"></script>-->
-	<!-- PrettyPhoto -->
-	<!--<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
-	<!-- Bxslider -->
-	<!--<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>-->
-	<!-- Isotope -->
-	<!--<script type="text/javascript" src="js/jquery.isotope.min.js"></script>-->
-	<!-- Wow Animation -->
-	<!--<script type="text/javascript" src="js/wow.min.js"></script>-->
-	<!-- SmoothScroll -->
-	<!--<script type="text/javascript" src="js/smoothscroll.js"></script>-->
-	<!-- Animated Pie -->
-	<!--<script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script>-->
-
-
-	<!-- Template custom -->
-	<!--<script type="text/javascript" src="js/custom.js"></script>-->
-
-<!--
-	<%=javascript_include_tag "jquery.js"%>
-	<%=javascript_include_tag "bootstrap.min.js"%>
-	<%=javascript_include_tag "owl.carousel.js"%>
-	<%=javascript_include_tag "jquery.prettyPhoto.js"%>
-	<%=javascript_include_tag "bxslider.min.js"%>
-	<%=javascript_include_tag "jquery.isotope.min.js"%>
-	<%=javascript_include_tag "wow.min.js"%>
-	<%=javascript_include_tag "smoothscroll.js"%>						
-	<%=javascript_include_tag "jquery.easy-pie-chart.js"%>
-	<%=javascript_include_tag "custom.js"%>		 -->
-	
-
 </html>
-
